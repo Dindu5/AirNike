@@ -8,6 +8,7 @@ body {
 	padding: 0px 50px;
 	height: 100vh;
 	background-color: white;
+	overflow: hidden;
 
 	/* background-color: rgba(141, 194, 243, 0.63);*/
 }
@@ -267,6 +268,7 @@ footer h5 {
 	}
 	.landing-text {
 		font-size: small;
+		text-align: center;
 	}
 	.landing-area h1 {
 		font-size: 3rem;
