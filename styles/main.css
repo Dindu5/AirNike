@@ -6,7 +6,6 @@
 }
 body {
 	padding: 0px 50px;
-	height: 100vh;
 	background-color: white;
 	overflow: hidden;
 
@@ -73,7 +72,7 @@ header {
 #main {
 	display: flex;
 	flex-wrap: wrap;
-	height: 75%;
+	height: 80vh;
 	align-items: center;
 }
 .landing-area {
@@ -85,7 +84,7 @@ header {
 }
 
 .landing-area h1 {
-	font-size: 7vw;
+	font-size: 6.5vw;
 	font-weight: 1000;
 }
 .landing-area p {
@@ -135,7 +134,7 @@ button.primary:focus {
 }
 
 .wrapper {
-	height: 75vh;
+	height: 26rem;
 	width: 50vw;
 	background-size: cover;
 	background-position: center;
@@ -143,15 +142,15 @@ button.primary:focus {
 }
 
 .design {
-	position: absolute;
+	position: sticky;
 	width: 60vw;
 	bottom: 0;
-	left: 0;
+	margin-left: -50px;
 	z-index: -1;
 }
 
 #footer {
-	position: absolute;
+	position: fixed;
 	color: white;
 	bottom: 0;
 	padding-bottom: 30px;
@@ -305,6 +304,9 @@ footer h5 {
 		margin-top: 10px;
 		margin: 0;
 	}
+	.design {
+		margin-left: -30px;
+	}
 	button {
 		margin: 10% 0;
 	}
@@ -326,8 +328,8 @@ footer h5 {
 	}
 	.wrapper {
 		background-size: cover;
-		height: 15rem;
-		width: 20rem;
+		height: 40vw;
+		width: 40vw;
 	}
 	.design {
 		width: 80vw;
